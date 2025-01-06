@@ -10,9 +10,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="renamer",
-            api_id=Config.API_ID,
-            api_hash=Config.API_HASH,
-            bot_token=Config.BOT_TOKEN,
+            api_id=Config.25210379,
+            api_hash=Config.2f43e4bccc419e3b7e28e3219bb1d68c,
+            bot_token=Config.8093813577:AAF9eSk-P04QhCNqZpU4_cThFYCKRkMmZmM,
             workers=min(32, os.cpu_count() + 4),
             plugins={"root": "plugins"},
             sleep_threshold=15,
